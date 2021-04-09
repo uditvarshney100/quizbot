@@ -17,7 +17,7 @@ logging.basicConfig(
     format='%(asctime)s %(levelname)-7s %(name)s %(message)s')
 logging.getLogger().setLevel('DEBUG')
 
-TOKEN_FILE = 'token.txt'
+TOKEN_FILE = '1799228766:AAFTCZTi_u8pMuDoxuPRH66HeD0GlAOiy7s'
 TOKEN = Path(TOKEN_FILE).read_text().strip()
 AUTHORIZED_USERS = ['makukha']
 
